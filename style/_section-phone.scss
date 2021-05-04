@@ -1,0 +1,38 @@
+.phone {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 80px;
+
+  img {
+    height: 519px;
+    width: 300px;
+  }
+  .phone-text {
+    width: 288px;
+    height: 254px;
+    font-size: 14px;
+    color: #060a24;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin:0 16px;
+  }
+  h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-right: 8px;
+    font-size: 36px;
+    color: #060a24;
+    letter-spacing: 0;
+    line-height: 42px;
+  }
+  p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060a24;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+}

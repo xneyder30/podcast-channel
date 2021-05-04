@@ -1,0 +1,29 @@
+#topics {
+  margin: 48px 16px 0;
+  h2 {
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 2rem;
+    color: #060a24;
+    letter-spacing: 0;
+    padding-bottom: 24px;
+  }
+  .icon {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    justify-items: center;
+    
+    div {
+      img{
+        margin-left:  20px;
+      }
+      p {
+        font-family: "IBM Plex Sans SemiBold", sans-serif;
+        font-size: 24px;
+        color: #060a24;
+        letter-spacing: 0;
+        margin: 13px 0 50px 0;
+        width: 183px;
+      }
+    }
+  }
+}
