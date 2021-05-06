@@ -109,7 +109,7 @@ header #menu:checked ~ ul {
   margin: 0 16px;
 }
 
-#text h2 {
+#text h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 3rem;
   color: #060a24;
@@ -117,7 +117,7 @@ header #menu:checked ~ ul {
   line-height: 42px;
 }
 
-#text h2 span {
+#text h1 span {
   text-decoration: line-through;
 }
 
@@ -153,7 +153,7 @@ main {
   padding-bottom: 100px;
 }
 
-main h1 {
+main h2 {
   padding: 64px 16px 21px;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 2rem;
@@ -187,7 +187,7 @@ main .container iframe {
   overflow: hidden;
 }
 
-.phone {
+#phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,12 +207,12 @@ main .container iframe {
   bottom: 80px;
 }
 
-.phone img {
+#phone img {
   height: 519px;
   width: 300px;
 }
 
-.phone .phone-text {
+#phone .phone-text {
   width: 288px;
   height: 254px;
   font-size: 14px;
@@ -222,7 +222,7 @@ main .container iframe {
   margin: 0 16px;
 }
 
-.phone h2 {
+#phone h2 {
   font-family: 'IBM Plex Sans', sans-serif;
   padding-right: 8px;
   font-size: 36px;
@@ -231,7 +231,7 @@ main .container iframe {
   line-height: 42px;
 }
 
-.phone p {
+#phone p {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 14px;
   color: #060a24;
@@ -252,7 +252,7 @@ main .container iframe {
   margin: 0 0 14px 16px;
 }
 
-#guests .photos img {
+#guests #photos img {
   width: 100%;
   display: block;
 }
@@ -320,19 +320,21 @@ footer .novelties h2 {
 }
 
 footer .novelties button {
+  height: 44px;
+  width: 288px;
+  margin-top: 36px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background: #00f3bb;
+  border: 1px #00f3bb;
+  transition: all 1s ease;
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   color: #060a24;
   letter-spacing: 0;
   text-align: center;
   line-height: 22px;
-  background: #00f3bb;
-  border: 1px #00f3bb;
-  height: 44px;
-  width: 288px;
-  margin-top: 36px;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  text-decoration: none;
 }
 
 footer .novelties button:hover {
@@ -357,7 +359,7 @@ footer .contact {
           justify-content: center;
 }
 
-footer .contact p {
+footer .contact h6 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
   color: #060a24;
@@ -377,6 +379,10 @@ footer .contact ul {
 
 footer .contact li {
   padding: 16px;
+}
+
+footer .contact li a {
+  color: #060a24;
 }
 
 @media screen and (min-width: 768px) {
@@ -417,7 +423,7 @@ footer .contact li {
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 86%, 0% 100%);
             clip-path: polygon(0 15%, 100% 0, 100% 86%, 0% 100%);
   }
-  main h1 {
+  main h2 {
     padding-left: 100px;
     margin-top: 75px;
   }
@@ -426,14 +432,14 @@ footer .contact li {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
-  .phone .phone-text {
+  #phone .phone-text {
     width: 410px;
     margin-left: 50px;
   }
   #guests h2 {
     padding-left: 100px;
   }
-  #guests .photos {
+  #guests #photos {
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 1fr 1fr;

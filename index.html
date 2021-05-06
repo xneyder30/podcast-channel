@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,24 +15,22 @@
     <!-- sass -->
     <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
-
     <header>
         <img src="./img/logo.svg" alt="logo">
         <nav>
             <input type="checkbox" id="menu">
             <label for="menu"><i class="fas fa-bars"></i></label>
             <ul>
-                <li> <a href="#episodios"> EPISODIOS</a></li>
-                <li>NOSOTROS</li>
-                <li>ENTREVISTAS</li>
-                <li>TÓPICOS</li>
+                <li><a href="#episodios">EPISODIOS</a></li>
+                <li><a href="#phone">NOSOTROS</a></li>
+                <li><a href="#photos">ENTREVISTAS</a></li>
+                <li><a href="#topics">TÓPICOS</a></li>
             </ul>
         </nav>
     </header>
     <section id="text">
-        <h2>Hello <span>world</span> pale blue dot.</h2>
+        <h1>Hello <span>world</span> pale blue dot.</h1>
         <p>
             Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
         </p>
@@ -41,12 +38,9 @@
             CONOCÉ MÁS
         </button>
     </section>
-
     <main id="episodios">
-        <h1>Episodios</h1>
-
-        <section class="container">
-
+        <h2>Episodios</h2>
+        <div class="container">
             <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
                 allow="encrypted-media"></iframe>
             <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
@@ -55,9 +49,9 @@
                 allow="encrypted-media"></iframe>
             <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
                 allow="encrypted-media"></iframe>
-        </section>
+        </div>
     </main>
-    <section class="phone">
+    <section id="phone">
         <img src="./img/phone.png" alt="phone">
         <div class="phone-text">
             <h2>De dónde venimos</h2><br>
@@ -74,7 +68,7 @@
         <h2>
             Invitadas/os estelares
         </h2>
-        <article class="photos">
+        <div id="photos">
             <img src="./img/grace-hopper.png" alt="grace-hopper">
             <img src="./img/Katie-Bouman.png" alt="Katie-Bouman">
             <img src="./img/Margaret_Hamilton.png" alt="Margaret_Hamilton">
@@ -82,12 +76,11 @@
             <img src="./img/ComputeroperatorswithanEniac—theworld’sfirstprogrammablegeneral-purposecomputer.png"
                 alt="general-purpose">
             <img src="./img/susan-kare.png" alt="susan-kare">
-
-        </article>
+        </div>
     </section>
     <section id="topics">
         <h2>Algunos de nuestros temas</h2>
-        <article class="icon">
+        <div class="icon">
             <div>
                 <img src="./img/icon1.svg" alt="icon-1">
                 <p>Trabajo remoto</p>
@@ -103,33 +96,30 @@
             <div>
                 <img src="./img/icon4.svg" alt="icon-4">
                 <p>Seguridad informática</p>
-
             </div>
-        </article>
-
+        </div>
     </section>
     <footer>
         <section class="novelties">
             <h2>
                 ¿Querés las últimas novedades?
             </h2>
-            <button>ESCUCHÁ LOS EPISODIOS</button>
-
+            <button>
+                ESCUCHÁ LOS EPISODIOS
+            </button>
         </section>
         <section class="contact">
-            <p>© 2019— Hello blue pale dot</p>
-            <ul>
-                <li><i class="fab fa-spotify"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-facebook"></i></li>
-                <li><i class="fab fa-telegram"></i></li>
-            </ul>
+            <h6>© 2019— Hello blue pale dot</h6>
+            <nav>
+                <ul>
+                    <li><a href="https://www.spotify.com/co/" target="_blank"><i class="fab fa-spotify"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.telegram.org/" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                </ul>
+            </nav>
         </section>
     </footer>
-
-
-
 </body>
-
 </html>

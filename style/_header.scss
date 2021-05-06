@@ -27,13 +27,10 @@ header {
     letter-spacing: 0;
     line-height: 28px;
     display: none;
-
-
     & :hover {
       color: #00f3bb;
       text-decoration: line-through;
     }
-
     li {
       padding-left: 17px;
       font-family: "IBM Plex Mono", monospace;
@@ -42,7 +39,6 @@ header {
       letter-spacing: 0;
       line-height: 28px;
       text-decoration: none;
-
       a {
         text-decoration: none;
         color: #060a24;

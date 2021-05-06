@@ -1,4 +1,4 @@
-.phone {
+#phone {
   display: flex;
   flex-flow: row wrap;
   align-content: center;
@@ -6,7 +6,6 @@
   justify-content: center;
   position: relative;
   bottom: 80px;
-
   img {
     height: 519px;
     width: 300px;
